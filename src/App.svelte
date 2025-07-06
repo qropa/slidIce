@@ -120,7 +120,7 @@
     const timeText = formatTime(elapsedTime);
     
     const text = `⬜⬜🟦⬜ #SlidIce ${dateText}
-⬜🟦🟪⬜ https://qropa.github.io/slidice/
+⬜🟦🟪⬜ https://qropa.github.io/slidIce/
 🟦🟪🟦⬜ time: ${timeText}
 ⬜⬜⬜⬜ moves: ${moveCount} retries: ${retryCount}`;
     
