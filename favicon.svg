@@ -1,0 +1,34 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- 4x4 grid background -->
+  <rect width="32" height="32" fill="#f5f5f5"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#e0e0e0" stroke-width="1" fill="none">
+    <!-- Vertical lines -->
+    <line x1="8" y1="0" x2="8" y2="32"/>
+    <line x1="16" y1="0" x2="16" y2="32"/>
+    <line x1="24" y1="0" x2="24" y2="32"/>
+    <!-- Horizontal lines -->
+    <line x1="0" y1="8" x2="32" y2="8"/>
+    <line x1="0" y1="16" x2="32" y2="16"/>
+    <line x1="0" y1="24" x2="32" y2="24"/>
+  </g>
+  
+  <!-- Goal area (2x2 center) -->
+  <rect x="8" y="8" width="16" height="16" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  
+  <!-- Blocks according to the pattern -->
+  <!-- Row 1: ⬜⬜🟦⬜ -->
+  <rect x="16" y="0" width="8" height="8" fill="#2196f3" stroke="#1976d2" stroke-width="1"/>
+  
+  <!-- Row 2: ⬜🟦🟪⬜ -->
+  <rect x="8" y="8" width="8" height="8" fill="#2196f3" stroke="#1976d2" stroke-width="1"/>
+  <rect x="16" y="8" width="8" height="8" fill="#9c27b0" stroke="#7b1fa2" stroke-width="1"/>
+  
+  <!-- Row 3: 🟦🟪🟦⬜ -->
+  <rect x="0" y="16" width="8" height="8" fill="#2196f3" stroke="#1976d2" stroke-width="1"/>
+  <rect x="8" y="16" width="8" height="8" fill="#9c27b0" stroke="#7b1fa2" stroke-width="1"/>
+  <rect x="16" y="16" width="8" height="8" fill="#2196f3" stroke="#1976d2" stroke-width="1"/>
+  
+  <!-- Row 4: ⬜⬜⬜⬜ (no blocks) -->
+</svg>
