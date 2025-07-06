@@ -119,7 +119,7 @@
     const dateText = selectedDate.toLocaleDateString('en-CA'); // YYYY-MM-DD format
     const timeText = formatTime(elapsedTime);
     
-    const text = `⬜⬜🟦⬜ #SlidIce ${dateText}
+    const text = `⬜⬜🟦⬜ #SlidIce ${dateText} ${selectedMode.charAt(0).toUpperCase() + selectedMode.slice(1)}
 ⬜🟦🟪⬜ https://qropa.github.io/slidIce/
 🟦🟪🟦⬜ time: ${timeText}
 ⬜⬜⬜⬜ moves: ${moveCount} retries: ${retryCount}`;
